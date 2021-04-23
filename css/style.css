@@ -4,6 +4,7 @@
   height: 324.47px;
   background-repeat: no-repeat;
   z-index: 1;
+  background-size: cover;
 }
 .navigation {
   display: -webkit-box;
