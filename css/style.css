@@ -31,10 +31,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-right: 138px;
 }
 .nav-li {
-  margin-right: 49px;
+  margin-right: 30px;
 }
 .nav-li :last-child {
   margin-right: 0px;
