@@ -116,7 +116,11 @@
 }
 /* seciton2 */
 
-
+.fa-arrow-right{
+    font-size: 30px;
+    color: white;
+    transition: all 0.3s;
+}
 .section-2{
     width: 100%;
     margin-top: 101px;
@@ -175,6 +179,9 @@
     position: absolute;
     right: 0%;
     bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-wraper{
     display: flex;
@@ -304,8 +311,32 @@
     padding-bottom: 40px;
     transition: all 0.4s;
 }
+.fa-map-marker-alt{
+    color: #5863F8;;
+    margin-right: 15px;
+    transition: all 0.3s;
+}
+.fa-phone-alt{
+    color: #5863F8;;
+    margin-right: 15px;
+    transition: all 0.3s;
+}
+.fa-envelope{
+    color: #5863F8;;
+    margin-right: 15px;
+    transition: all 0.3s;
+}
 
 /*animations */
+.fa-phone-alt:hover{
+    color: gold;
+}
+.fa-map-marker-alt:hover{
+    color: gold;
+}
+.fa-envelope:hover{
+    color: gold;
+}
 .nav-a:hover{
     color: #5863F8;
 }
@@ -329,4 +360,16 @@
 }
 .last-2-a:hover{
     color: rgba(255, 217, 0, 0.637);
+}
+
+.color{
+    color:white;
+}
+
+.flex{
+    display: flex;
+    margin-bottom: 10px;
+}
+.fa-arrow-right:hover{
+    color: gold;
 }
