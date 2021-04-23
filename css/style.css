@@ -28,11 +28,13 @@
 .nav-a{
     color: white;
     font-size: 12px;
+    transition: all 0.3s;
 }
 .nav-head{
     color: white;
     padding-left: 139px;
     font-size: 20px;
+    transition: all 0.4s;
 }
 .restaurant{
     font-size: 48px;
@@ -231,4 +233,75 @@
     max-width: 352px;
     width: 100%;
     height: 352px;
+}
+
+/* footer */
+
+
+.footer{
+    background-color: #121212;
+}
+.foot-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.left-foot-block{
+    max-width: 260px;
+    width: 100%;
+    padding-top: 90px;
+    margin-left: 139px;
+}
+.left-foot-head{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+.left-foot-text{
+    color: white;
+}
+.li-1-head{
+    color: white;
+    margin-bottom: 10px;
+}
+.list-a{
+    color: #5863F8;
+}
+.list{
+    margin-bottom: 7px;
+}
+.list-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.right-foot-block{
+    max-width: 590px;
+    width: 100%;
+    margin-top: 90px;
+    margin-right: 201px;
+    
+}
+.last-text{
+    max-width: 1075px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.last-1{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.last-2-a{
+    color: #5863F8;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+/*animations */
+.nav-a:hover{
+    color: #5863F8;
+}
+.nav-head:hover{
+    color: #5863F8;
 }
