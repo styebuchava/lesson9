@@ -12,8 +12,13 @@
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    width: 100%;
 }
-
+.fa-bars{
+    color: white;
+    display: none;
+    font-size: 30px;
+}
 .nav{
     display: flex;
     justify-content: space-between;
